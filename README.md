@@ -27,15 +27,12 @@ python -m http.server 8000
 
 Then open http://localhost:8000/ in your browser.
 
-## Contributing
 
-- Edit `index.html` and `style.css` to make changes.
-- Create a PR or share patches if you want to collaborate.
 
 ## License
 
-Add a license of your choice here (e.g., MIT).
+SOUNDAR'S project
 
 ## Author
 
-Your Name Here
+SOUNDARARAJAN R
