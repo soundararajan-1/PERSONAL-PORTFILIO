@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height:2.0;
+    background-color: #ddedfc;
+    color: #231c3c;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+header {
+    background: #1f2937;
+    color: rgb(251, 197, 138);
+    padding: 90px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: left;
+    gap: 47px;
+}
+
+.profile-img {
+    
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgb(55, 3, 3);
+}
+
+.header-text h1 {
+    margin-bottom: 8px;
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-text p {
+    font-size: 17px;
+    opacity: 0.7;
+}
+
+
+@media (max-width: 600px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    color: #1f2937;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills li {
+    background: #102e6f;
+    color: rgb(255, 255, 255);
+    padding: 11px 45px;
+    border-radius: 100px;
+    list-style: disc;
+}
+
+.card {
+    background: rgb(254, 247, 222);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(151, 127, 49, 0.541);
+}
+
+.bg-light {
+    background: #e8f5f9;
+}
+
+footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+@media (max-width: 600px) {
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
